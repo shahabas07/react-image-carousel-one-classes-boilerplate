@@ -1,1 +1,49 @@
-/* write your carousel css in this file */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+.leftarr:hover{
+    transform:scale(1.5);
+}
+.rightarr:hover{
+    transform:scale(1.5);
+} 
+  .title-overlay {
+    padding: 5px;
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+
+  }
+  .subtitle-overlay{
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    position: absolute;
+    bottom: 18%;
+    left: 50%;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 5px;
+    padding: 5px 0;
+    align-items: center;
+
+  }
+  .container{
+    display:flex;
+    align-items: center;
+}
